@@ -15,9 +15,7 @@
 
 		foreach ($files as $k => $v) {
 			if(strpos($v, $filter) > 0) { 
-				// if(@date('Ymd',filemtime($SYS_DIR.$v) == @date('Ymd'))) { 
-					$filterFiles[] = $v;
-				// }
+				$filterFiles[] = $v;
 			}
 		}
 
@@ -176,5 +174,5 @@
 
 	}
 
-
+	unlink($SYS_OUT);
 ?>

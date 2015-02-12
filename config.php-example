@@ -1,0 +1,23 @@
+<?
+	///////////////////////////////////////////////////////
+	// PDV CONFIGURATION
+
+	$PDV_NAME	= "nome-da-loja-1";
+	$SYS_DIR   	= 	"c:/Logical/PC-PDA/";
+
+	///////////////////////////////////////////////////////
+	// SYSTEM
+
+	$PDV_NAME	= strtolower($PDV_NAME);
+	$SYS_OUT	= "clientes-".$PDV_NAME."-".@date("Y-m-d-H-i-s").".csv";
+
+	///////////////////////////////////////////////////////
+	// SMTP 
+
+	$SMTP_HOST = "";
+	$SMTP_PORT = "";
+	$SMTP_USER = "";
+	$SMTP_PASS = "";
+	$SMTP_FROM = "";
+	$SMTP_NAME = "";
+	$SMTP_ADDR = "";
